@@ -10,15 +10,15 @@ import java.util.stream.Stream;
 public class Configuration {
 	
 	/*
-	   dans cette Map les clés representent les indices des articles 
-	   et les valeurs sont des booléens pour dire si on prens cet article dans ce Bin ou pas.  
+	   dans cette Map les clÃ©s representent les indices des articles 
+	   et les valeurs sont des boolÃ©ens pour dire si on prends cet article dans ce Bin ou pas.  
 	 */
 	private Map<Integer,Integer> configuration;
 
 	
 	
 	// Constructeur avec une Map 'value(index_size) = {1,0}' 
-	public Configuration(Map<Integer,Integer> configuration /*,Données data*/)
+	public Configuration(Map<Integer,Integer> configuration /*,DonnÃ©es data*/)
 	{
 		this.configuration = new LinkedHashMap<>(configuration);
 	}
@@ -35,7 +35,7 @@ public class Configuration {
 	
 
 	/*
-	// la liste des sizes présents dans la configuration 
+	// la liste des sizes prÃ©sents dans la configuration 
 	public Set<Integer> getSizes()
 	{
 		return Collections.unmodifiableSet(configuration.keySet());
